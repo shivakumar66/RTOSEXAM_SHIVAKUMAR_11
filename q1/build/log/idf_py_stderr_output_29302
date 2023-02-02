@@ -1,0 +1,12 @@
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c: In function 'app_main':
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:63:18: error: implicit declaration of function 'QueueCreate'; did you mean 'xQueueCreate'? [-Werror=implicit-function-declaration]
+   63 |      msg_queue = QueueCreate(mq_SIZE,msg_SIZE);
+      |                  ^~~~~~~~~~~
+      |                  xQueueCreate
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:63:16: warning: assignment to 'QueueHandle_t' {aka 'struct QueueDefinition *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   63 |      msg_queue = QueueCreate(mq_SIZE,msg_SIZE);
+      |                ^
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/q1.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

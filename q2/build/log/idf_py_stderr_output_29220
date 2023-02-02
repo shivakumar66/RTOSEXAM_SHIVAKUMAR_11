@@ -1,0 +1,9 @@
+Compiler supported targets: xtensa-esp32-elf
+
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q2/main/q2.c:4:9: fatal error: freertos/timer.h: No such file or directory
+    4 | #include"freertos/timer.h"
+      |         ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/q2.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

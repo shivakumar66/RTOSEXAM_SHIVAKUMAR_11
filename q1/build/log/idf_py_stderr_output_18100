@@ -1,0 +1,10 @@
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c: In function 'task_4':
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:32:9: error: 'data' redeclared as different kind of symbol
+   32 |     int data = 100;
+      |         ^~~~
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:30:19: note: previous definition of 'data' with type 'void *'
+   30 | void task_4(void *data)
+      |             ~~~~~~^~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/q1.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

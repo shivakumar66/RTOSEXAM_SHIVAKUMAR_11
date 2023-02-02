@@ -1,0 +1,13 @@
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q2/main/q2.c: In function 'oneshot_timer':
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q2/main/q2.c:24:16: error: 'oneshot_handle' undeclared (first use in this function)
+   24 |    vTaskDelete(oneshot_handle);
+      |                ^~~~~~~~~~~~~~
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q2/main/q2.c:24:16: note: each undeclared identifier is reported only once for each function it appears in
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q2/main/q2.c: In function 'app_main':
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q2/main/q2.c:54:5: error: unknown type name 'Basetype_t'; did you mean 'BaseType_t'?
+   54 |     Basetype_t res;
+      |     ^~~~~~~~~~
+      |     BaseType_t
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/q2.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

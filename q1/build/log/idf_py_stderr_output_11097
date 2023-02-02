@@ -1,0 +1,23 @@
+Compiler supported targets: xtensa-esp32-elf
+
+Compiler supported targets: xtensa-esp32-elf
+
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c: In function 'task_4':
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:32:9: error: 'data' redeclared as different kind of symbol
+   32 |     int data = 100;
+      |         ^~~~
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:30:19: note: previous definition of 'data' with type 'void *'
+   30 | void task_4(void *data)
+      |             ~~~~~~^~~~
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:36:9: error: 'task2_data' undeclared (first use in this function)
+   36 |         task2_data++;
+      |         ^~~~~~~~~~
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:36:9: note: each undeclared identifier is reported only once for each function it appears in
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c: In function 'app_main':
+/home/batch-2/Desktop/RTOS_SHIVAKUMAR_11/q1/main/q1.c:57:5: error: unknown type name 'Basetype_t'; did you mean 'BaseType_t'?
+   57 |     Basetype_t res;
+      |     ^~~~~~~~~~
+      |     BaseType_t
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/q1.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2
